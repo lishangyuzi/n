@@ -22,3 +22,10 @@ make clean
 - **run:** run a go project
 - **version:** n version
 
+## remote create 
+
+```
+n cluster new --ip $public_host -p $password --image-repository registry.cn-hangzhou.aliyuncs.com/google_containers remote
+
+```
+
